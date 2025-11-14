@@ -70,8 +70,8 @@ body.about-page {
   position: fixed;
   font-weight: 100;
   padding: 1.8rem;
-  padding-left: 95rem;
-  padding-top: 51rem;
+  padding-left: 100rem;
+  padding-top: 58rem;
   text-align: right;
 }
 
@@ -223,5 +223,6 @@ img {
 a .scramble span {
   pointer-events: auto; 
 }
+
 
 
