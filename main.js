@@ -58,7 +58,6 @@ class TextScramble {
   }
 }
 
-// Scramble all text nodes safely, including inside links
 function scrambleElement(el) {
   el.childNodes.forEach(node => {
     if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim().length > 0) {
@@ -70,8 +69,8 @@ function scrambleElement(el) {
   });
 }
 
-// Run scramble on page load
 window.addEventListener('load', () => {
   const elements = document.querySelectorAll('.info-block');
   elements.forEach(el => scrambleElement(el));
 });
+
